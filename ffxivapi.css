@@ -1,0 +1,48 @@
+body{
+    background-image: url(../API/assets/hydaelyn.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.topName{
+    text-align: center;
+}
+
+input{
+    display: block;
+    margin: auto;
+}
+
+.submit{
+    margin: 0 auto;
+    vertical-align: center;
+}
+
+.jumbotron{
+    margin: 0 auto;
+    background: rgb(0, 0, 0, 0.8);
+    color: rgb(0, 123, 255);
+}
+
+#dumbButton{
+    vertical-align: center;
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+}
+
+.realstuff{
+    text-align: center;
+    background: rgb(0, 0, 0, 0.8);
+    color: rgb(0, 123, 255);
+    border: 5px double black;
+    border-radius: 20%; 
+}
+
+/* .container{
+    text-align: center;
+    vertical-align: center;
+    float: center;
+} */

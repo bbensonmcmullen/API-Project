@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FFXIV API Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="ffxivapi.css">
+</head>
+<body>
+  <div class="wrapper">
+      <form>
+        <div class="jumbotron">
+                <h1 class="display-4" style="text-align:center">FFXIV Item Search</h1>
+                <p class="lead" style="text-align:center">Powered by the XIVAPI</p>
+                <hr class="my-4">
+                <p style="text-align:center">Search for weapons, armor, minions, any game item you want.</p>
+                      
+                <!-- <button class="btn btn-primary btn-lg submit" href="#" role="button" id="submitButton">Let's see here...</button> -->
+                <input type="text" class="search" id="search" required placeholder="'Sword', or something...">
+                <br>
+                <div id="dumbButton">
+                <button class="submit">Let's see here...</button>
+                </div>
+            </div>
+    <!-- <h1>FFXIV API Item Search</h1>
+        <h3 id="description">Search for equipment, minions, any game item you wish!</h3>
+        <label for="search">Search for something:</label>
+        <input type="text" class="search" id="search" required>
+        <button class="submit">Let's see here...</button> -->
+    </form>
+    <div class="container">
+    <div class="results row">
+            <div class="col-4"></div>
+        <section>
+
+        </section>
+            <div class="col-4"></div>
+    </div>
+    </div>
+</div>
+<script type="text/javascript" src="ffxivapi.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
